@@ -1,3 +1,16 @@
 spring:
-  application:
-    name: RealEstateApplication
+  datasource:
+    url: jdbc:mysql://localhost:3306/realestate?useSSL=false&serverTimezone=UTC
+    username: realuser     # hoặc root
+    password: 123456       # mật khẩu thật của bạn
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: "this-is-a-very-long-super-secret-key-123456"

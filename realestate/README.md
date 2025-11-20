@@ -1,7 +1,4 @@
-
-
 # Real Estate News Management 
-
 ## Technology Stack
 
 | Thành phần | Công cụ |
